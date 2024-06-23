@@ -45,7 +45,7 @@ Collaborative filtering is a method used in recommendation systems where the pre
 
 ## Results
 
-### Optimal Parameters
+### SVD Optimal Parameters
 | Parameter | Value |
 |-----------|-------|
 | n_factors |   8   |
