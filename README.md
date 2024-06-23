@@ -1,14 +1,14 @@
 # EmotiSVD-Recommender
 
 ## Project Overview
-
-This project predicts clips for viewers based on their emotional reactions and reaction times. Participants rated various emotional clips on a scale from 0 to 100, with 100 indicating very emotional and 0   indicating not emotional at all. Their reaction times to these ratings were also recorded. The goal is to leverage these ratings and reaction times to recommend clips that are likely to evoke a strong  emotional response from viewers.
+This project aims to create a collaborative recommendation system using emotional ratings. Participants rated 30-second movie scenes on a scale from 0 to 100, with reaction times (RT) indicating confidence. The system leverages these ratings and RTs to recommend emotionally impactful clips.
 
 ## Experiment and Dataset Description
+In the experiment conducted in the Psychology and Cognition Lab, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded. Lower reaction times indicate more confidence in the rating, as the participants did not need much time to decide how the clips made them feel.   
 
-In the experiment, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded.
+The clips are actual scenes from real movies, each with a duration of exactly 30 seconds. The dataset includes an equal number of positive and negative emotional clips, ensuring a balanced representation of emotional responses.   
 
-The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times.   
+The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times. By combining these two metrics, the algorithm can recommend clips that not only have high emotional impact but also prompt quick and decisive responses from viewers.   
 
 ## Features and Innovations
 **Composite Rating Calculation**: Emotional ratings are scaled between 0 and 1. Reaction times are inverted and scaled similarly, with shorter reaction times contributing more to the composite score.   
