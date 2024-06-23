@@ -1,3 +1,5 @@
+<img src="icon.webp" width="150" alt="alt text">
+
 # Emotion Based Content Recommender
 
 This project aims to create a collaborative recommendation system using emotional ratings. Participants rated 30-second movie scenes on a scale from 0 to 100, with reaction times (RT) indicating confidence. The system leverages these ratings and RTs to recommend emotionally impactful clips.
