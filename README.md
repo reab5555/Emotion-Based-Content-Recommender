@@ -43,6 +43,8 @@ Collaborative filtering is a method used in recommendation systems where the pre
 |   ... and 1229 more rows   |                   ...                    |       ...       |
 
 
+## Results
+
 ### Optimal Parameters
 | Parameter | Value |
 |-----------|-------|
