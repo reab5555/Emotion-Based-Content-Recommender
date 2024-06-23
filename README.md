@@ -10,7 +10,7 @@ This project predicts clips for viewers based on their emotional reactions and r
 **Optimized Parameters through Grid Search**: The project uses Grid Search to find the optimal parameters for the SVD algorithm from the Surprise library.   
 **Cross-Validation for Robustness**: The model's performance is validated using 5-fold cross-validation, ensuring its robustness.   
 
-## Algorithm and Model
+## Model
 ### Singular Value Decomposition (SVD) and Matrix Factorization    
 
 Singular Value Decomposition (SVD) is a matrix factorization technique used in collaborative filtering for recommendation systems. It decomposes the user-item interaction matrix into three matrices, capturing latent factors that explain user preferences and item characteristics.   
