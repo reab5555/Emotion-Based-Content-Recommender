@@ -56,10 +56,10 @@ Collaborative filtering is a method used in recommendation systems where the pre
 
 ### Cross-Validation
 Performed 5-fold cross-validation with optimal parameters.   
-|           | Fold 1 | Fold 2 | Fold 3 | Fold 4 | Fold 5 |  Mean  |  Std   |
-|-----------|--------|--------|--------|--------|--------|--------|--------|
-| RMSE      | 0.1636 | 0.1646 | 0.1616 | 0.1732 | 0.1681 | 0.1662 | 0.0041 |
-| MAE       | 0.1322 | 0.1326 | 0.1275 | 0.1393 | 0.1372 | 0.1338 | 0.0041 |
+|           | Fold 1 | Fold 2 | Fold 3 | Fold 4 | Fold 5 |  Mean  |
+|-----------|--------|--------|--------|--------|--------|--------|
+| RMSE      | 0.1636 | 0.1646 | 0.1616 | 0.1732 | 0.1681 | 0.1662 |
+| MAE       | 0.1322 | 0.1326 | 0.1275 | 0.1393 | 0.1372 | 0.1338 |
 
 ## Prediction for new user
 
