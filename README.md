@@ -34,7 +34,7 @@ Collaborative filtering is a method used in recommendation systems where the pre
 ### Weighted Table (after scaling and RT inversion)
 
 |             ID             |                clip_item                 | combined_rating |
--------------------------------------------------------------------------------------------
+|----------------------------|------------------------------------------|-----------------|
 | ... and 1230 previous rows |                   ...                    |       ...       |
 |           25910            |            Titanic (1997) 114            |      0.663      |
 |           25910            |            Bullitt (1968) 116            |      0.634      |
@@ -42,41 +42,31 @@ Collaborative filtering is a method used in recommendation systems where the pre
 |           25910            |    Gentlemen Prefer Blondes (1953) 12    |      0.689      |
 |           25910            | The Good the Bad and the Ugly (1966) 120 |      0.672      |
 |   ... and 1229 more rows   |                   ...                    |       ...       |
--------------------------------------------------------------------------------------------
+
 
 ### Optimal Parameters
-+-----------+-------+
 | Parameter | Value |
-+-----------+-------+
+|-----------|-------|
 | n_factors |   8   |
 | n_epochs  |  50   |
 |  lr_all   | 0.005 |
 |  reg_all  |  0.1  |
 | Best RMSE | 0.166 |
-+-----------+-------+
 
 ### Cross-Validation
 Performed 5-fold cross-validation with optimal parameters.   
-+-----------+--------+--------+--------+--------+--------+--------+--------+
 |           | Fold 1 | Fold 2 | Fold 3 | Fold 4 | Fold 5 |  Mean  |  Std   |
-+-----------+--------+--------+--------+--------+--------+--------+--------+
+|-----------|--------|--------|--------|--------|--------|--------|--------|
 | RMSE      | 0.1636 | 0.1646 | 0.1616 | 0.1732 | 0.1681 | 0.1662 | 0.0041 |
 | MAE       | 0.1322 | 0.1326 | 0.1275 | 0.1393 | 0.1372 | 0.1338 | 0.0041 |
-+-----------+--------+--------+--------+--------+--------+--------+--------+
+| Fit time  |  0.01  |  0.01  |  0.01  |  0.01  |  0.01  |  0.01  |  0.00  |
+| Test time |  0.00  |  0.00  |  0.00  |  0.00  |  0.00  |  0.00  |  0.00  |
 
-
-## Summary
-+-----------+-------------------+
-|  Metric   |       Value       |
-+-----------+-------------------+
-| Mean RMSE | 0.166 (+/- 0.008) |
-| Mean MAE  | 0.134 (+/- 0.008) |
-+-----------+-------------------+
+## Prediction for new user
 
 ### Top 10 Recommended Clips for User 10130 using SVD
-+------+-------------------------------+------------------+
 | Rank |             Clip              | Predicted Rating |
-+------+-------------------------------+------------------+
+|------|-------------------------------|------------------|
 |  1   |    Come and See (1985) 15     |      0.8452      |
 |  2   |    Come and See (1985) 45     |      0.8182      |
 |  3   | Final Destination 3 (2006) 36 |      0.7972      |
@@ -87,7 +77,7 @@ Performed 5-fold cross-validation with optimal parameters.
 |  8   | Across the Universe (2007) 13 |      0.7680      |
 |  9   |    Twin Peaks 2 (2017) 66     |      0.7570      |
 |  10  | Final Destination (2000) 125  |      0.7548      |
-+------+-------------------------------+------------------+
+
 
 ## Installation
 
