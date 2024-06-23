@@ -17,6 +17,16 @@ Singular Value Decomposition (SVD) is a matrix factorization technique used in c
 ### Collaborative Filtering
 Collaborative filtering is a method used in recommendation systems where the preferences of users are predicted based on the preferences of similar users. SVD is one such technique that helps in identifying these similarities and making recommendations.  
 
+### Algorithm steps:
+1. Load and preprocess the data.   
+2. Scale emotional ratings and reaction times.   
+3. Compute the composite rating/combined weights (rating 80% + inverse reaction time 20%).   
+4. Use the Surprise library to perform collaborative filtering with SVD.   
+5. Optimize the SVD parameters using Grid Search.   
+6. Validate the model using cross-validation with 5 k-folds.   
+7. Train the final model on the entire dataset.   
+8. Save the trained model for future use.   
+
 ### Source Table
 
 |             ID             |                clip_item                 | emotional_rating | rating_RT |
@@ -77,15 +87,5 @@ Performed 5-fold cross-validation with optimal parameters.
 |  9   |    Twin Peaks 2 (2017) 66     |      0.7570      |
 |  10  | Final Destination (2000) 125  |      0.7548      |
 
-
-### Algorithm steps:
-1. Load and preprocess the data.
-2. Scale emotional ratings and reaction times.
-3. Compute the composite rating/combined weights (rating 80% + inverse reaction time 20%) for each clip.
-4. Use the Surprise library to perform collaborative filtering with SVD.
-5. Optimize the SVD parameters using Grid Search.
-6. Validate the model using cross-validation with 5 k-folds.
-7. Train the final model on the entire dataset.
-8. Save the trained model for future use.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
