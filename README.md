@@ -8,7 +8,7 @@ This project predicts clips for viewers based on their emotional reactions and r
 
 In the experiment, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded.
 
-The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times. By combining these two metrics, the algorithm can recommend clips that not only have high emotional impact but also prompt quick and decisive responses from viewers.   
+The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times.   
 
 ## Features and Innovations
 **Composite Rating Calculation**: Emotional ratings are scaled between 0 and 1. Reaction times are inverted and scaled similarly, with shorter reaction times contributing more to the composite score.   
