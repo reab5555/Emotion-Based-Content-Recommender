@@ -9,7 +9,6 @@ The clips are actual scenes from real movies, each with a duration of exactly 30
 
 The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times. By combining these two metrics, the algorithm can recommend clips that not only have high emotional impact but also prompt quick and decisive responses from viewers.   
 
-## Features and Innovations
 **Composite Rating Calculation**: Emotional ratings are scaled between 0 and 1. Reaction times are inverted and scaled similarly, with shorter reaction times contributing more to the composite score.   
 **Weighted Composite Scores**: The algorithm combines the scaled emotional ratings and reaction times with specific weights to form a composite rating for each clip.   
 **Optimized Parameters through Grid Search**: The project uses Grid Search to find the optimal parameters for the SVD algorithm from the Surprise library.   
