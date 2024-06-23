@@ -5,10 +5,10 @@
 This project predicts clips for viewers based on their emotional reactions and reaction times. Participants rated various emotional clips on a scale from 0 to 100, with 100 indicating very emotional and 0   indicating not emotional at all. Their reaction times to these ratings were also recorded. The goal is to leverage these ratings and reaction times to recommend clips that are likely to evoke a strong  emotional response from viewers.
 
 ## Features and Innovations
-**Composite Rating Calculation**: Emotional ratings are scaled between 0 and 1. Reaction times are inverted and scaled similarly, with shorter reaction times contributing more to the composite score.
-**Weighted Composite Scores**: The algorithm combines the scaled emotional ratings and reaction times with specific weights to form a composite rating for each clip.
-**Optimized Parameters through Grid Search**: The project uses Grid Search to find the optimal parameters for the SVD algorithm from the Surprise library.
-**Cross-Validation for Robustness**: The model's performance is validated using 5-fold cross-validation, ensuring its robustness.
+**Composite Rating Calculation**: Emotional ratings are scaled between 0 and 1. Reaction times are inverted and scaled similarly, with shorter reaction times contributing more to the composite score.   
+**Weighted Composite Scores**: The algorithm combines the scaled emotional ratings and reaction times with specific weights to form a composite rating for each clip.   
+**Optimized Parameters through Grid Search**: The project uses Grid Search to find the optimal parameters for the SVD algorithm from the Surprise library.   
+**Cross-Validation for Robustness**: The model's performance is validated using 5-fold cross-validation, ensuring its robustness.   
 
 ## Algorithm and Model
 ### Singular Value Decomposition (SVD) and Matrix Factorization    
