@@ -8,7 +8,8 @@ This project predicts clips for viewers based on their emotional reactions and r
 
 In the experiment, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded.
 
-The dataset contains the following columns (after cleaning):   
+The dataset contains the following columns (after cleaning):  
+   
 **ID**: Unique identifier for each participant.   
 **clip_item**: The specific clip being rated.   
 **emotional_rating**: The emotional rating given by the participant, ranging from 0 to 100.   
