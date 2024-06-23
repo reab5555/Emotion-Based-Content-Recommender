@@ -4,7 +4,7 @@
 This project aims to create a collaborative recommendation system using emotional ratings. Participants rated 30-second movie scenes on a scale from 0 to 100, with reaction times (RT) indicating confidence. The system leverages these ratings and RTs to recommend emotionally impactful clips.
 
 ## Experiment and Dataset Description
-In the experiment conducted in the Psychology and Cognition Lab, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded. Lower reaction times indicate more confidence in the rating, as the participants did not need much time to decide how the clips made them feel.   
+In the experiment, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded. Lower reaction times indicate more confidence in the rating, as the participants did not need much time to decide how the clips made them feel.   
 
 The clips are actual scenes from real movies, each with a duration of exactly 30 seconds. The dataset includes an equal number of positive and negative emotional clips, ensuring a balanced representation of emotional responses.   
 
