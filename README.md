@@ -29,11 +29,12 @@ Collaborative filtering is a method used in recommendation systems where the pre
 |           25910            |    Gentlemen Prefer Blondes (1953) 12    |        62        |   2487    |
 |           25910            | The Good the Bad and the Ugly (1966) 120 |        60        |   3333    |
 |   ... and 1229 more rows   |                   ...                    |       ...        |    ...    |
+--------------------------------------------------------------------------------------------------------
 
 ### Weighted Data (after scaling and RT inversion)
-+----------------------------+------------------------------------------+-----------------+
+
 |             ID             |                clip_item                 | combined_rating |
-+----------------------------+------------------------------------------+-----------------+
+-------------------------------------------------------------------------------------------
 | ... and 1230 previous rows |                   ...                    |       ...       |
 |           25910            |            Titanic (1997) 114            |      0.663      |
 |           25910            |            Bullitt (1968) 116            |      0.634      |
@@ -41,7 +42,7 @@ Collaborative filtering is a method used in recommendation systems where the pre
 |           25910            |    Gentlemen Prefer Blondes (1953) 12    |      0.689      |
 |           25910            | The Good the Bad and the Ugly (1966) 120 |      0.672      |
 |   ... and 1229 more rows   |                   ...                    |       ...       |
-+----------------------------+------------------------------------------+-----------------+
+-------------------------------------------------------------------------------------------
 
 ### Optimal Parameters
 +-----------+-------+
