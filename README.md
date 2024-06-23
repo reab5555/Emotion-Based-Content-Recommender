@@ -18,10 +18,10 @@ Singular Value Decomposition (SVD) is a matrix factorization technique used in c
 ### Collaborative Filtering
 Collaborative filtering is a method used in recommendation systems where the preferences of users are predicted based on the preferences of similar users. SVD is one such technique that helps in identifying these similarities and making recommendations.  
 
-### Original Data
+### Source Table
 
 |             ID             |                clip_item                 | emotional_rating | rating_RT |
-|------------------------------------------------------------------------------------------------------|
+|----------------------------|------------------------------------------|------------------|-----------|
 | ... and 1230 previous rows |                   ...                    |       ...        |    ...    |
 |           25910            |            Titanic (1997) 114            |        59        |   3584    |
 |           25910            |            Bullitt (1968) 116            |        55        |   1733    |
@@ -29,9 +29,9 @@ Collaborative filtering is a method used in recommendation systems where the pre
 |           25910            |    Gentlemen Prefer Blondes (1953) 12    |        62        |   2487    |
 |           25910            | The Good the Bad and the Ugly (1966) 120 |        60        |   3333    |
 |   ... and 1229 more rows   |                   ...                    |       ...        |    ...    |
---------------------------------------------------------------------------------------------------------
 
-### Weighted Data (after scaling and RT inversion)
+
+### Weighted Table (after scaling and RT inversion)
 
 |             ID             |                clip_item                 | combined_rating |
 -------------------------------------------------------------------------------------------
