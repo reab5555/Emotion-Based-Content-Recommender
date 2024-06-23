@@ -4,6 +4,18 @@
 
 This project predicts clips for viewers based on their emotional reactions and reaction times. Participants rated various emotional clips on a scale from 0 to 100, with 100 indicating very emotional and 0   indicating not emotional at all. Their reaction times to these ratings were also recorded. The goal is to leverage these ratings and reaction times to recommend clips that are likely to evoke a strong  emotional response from viewers.
 
+## Experiment and Dataset Description
+
+In the experiment, participants watched a variety of emotional clips and rated them based on how much the clips made them feel emotional, on a scale from 0 to 100 (where 100 is very emotional and 0 is not emotional at all). Alongside these ratings, the reaction times (RT) of the participants to provide these ratings were also recorded.
+
+The dataset contains the following columns (after cleaning):   
+**ID**: Unique identifier for each participant.   
+**clip_item**: The specific clip being rated.   
+**emotional_rating**: The emotional rating given by the participant, ranging from 0 to 100.   
+**rating_RT**: The reaction time taken by the participant to rate the clip, measured in milliseconds.   
+
+The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times. By combining these two metrics, the algorithm can recommend clips that not only have high emotional impact but also prompt quick and decisive responses from viewers.   
+
 ## Features and Innovations
 **Composite Rating Calculation**: Emotional ratings are scaled between 0 and 1. Reaction times are inverted and scaled similarly, with shorter reaction times contributing more to the composite score.   
 **Weighted Composite Scores**: The algorithm combines the scaled emotional ratings and reaction times with specific weights to form a composite rating for each clip.   
@@ -79,23 +91,14 @@ Performed 5-fold cross-validation with optimal parameters.
 |  10  | Final Destination (2000) 125  |      0.7548      |
 
 
-## Installation
-
-To install the necessary packages, run:
-
-  ''sh
-
-    pip install pandas numpy scikit-learn surprise joblib tabulate
-  ''
-Usage
-
-    Load and preprocess the data.
-    Scale emotional ratings and reaction times.
-    Compute the composite rating for each clip.
-    Use the Surprise library to perform collaborative filtering with SVD.
-    Optimize the SVD parameters using Grid Search.
-    Validate the model using cross-validation.
-    Train the final model on the entire dataset.
-    Save the trained model for future use.
+### Algorithm steps:
+1. Load and preprocess the data.
+2. Scale emotional ratings and reaction times.
+3. Compute the composite rating/combined weights (rating 80% + inverse reaction time 20%) for each clip.
+4. Use the Surprise library to perform collaborative filtering with SVD.
+5. Optimize the SVD parameters using Grid Search.
+6. Validate the model using cross-validation with 5 k-folds.
+7. Train the final model on the entire dataset.
+8. Save the trained model for future use.
 
 This project is licensed under the MIT License. See the LICENSE file for details.
