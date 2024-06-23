@@ -10,7 +10,7 @@ The clips are actual scenes from real movies, each with a duration of exactly 30
 The goal is to predict clips that are likely to evoke strong emotional responses from viewers by leveraging both the emotional ratings and the reaction times. By combining these two metrics, the algorithm can recommend clips that not only have high emotional impact but also prompt quick and decisive responses from viewers.   
 
 ## Model
-### Singular Value Decomposition (SVD) and Matrix Factorization    
+### Singular Value Decomposition (SVD)    
 
 Singular Value Decomposition (SVD) is a matrix factorization technique used in collaborative filtering for recommendation systems. It decomposes the user-item interaction matrix into three matrices, capturing latent factors that explain user preferences and item characteristics.   
 
