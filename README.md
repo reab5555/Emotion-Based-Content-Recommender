@@ -28,7 +28,7 @@ Collaborative filtering is a method used in recommendation systems where the pre
 
 ### Source Table
 
-|             ID             |                clip_item                 | emotional_rating | rating_RT |
+| Participant ID             |                Clip                      | Emotional Rating | Rating RT |
 |----------------------------|------------------------------------------|------------------|-----------|
 | ... and 1230 previous rows |                   ...                    |       ...        |    ...    |
 |           25910            |            Titanic (1997) 114            |        59        |   3584    |
@@ -41,7 +41,7 @@ Collaborative filtering is a method used in recommendation systems where the pre
 
 ### Weighted Table (after scaling and RT inversion)
 
-|             ID             |                clip_item                 | combined_rating |
+|      Participant ID        |                Clip                      | Combined rating |
 |----------------------------|------------------------------------------|-----------------|
 | ... and 1230 previous rows |                   ...                    |       ...       |
 |           25910            |            Titanic (1997) 114            |      0.663      |
