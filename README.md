@@ -72,7 +72,7 @@ Performed 5-fold cross-validation with optimal parameters.
 
 ## Prediction for new user
 
-### Top 10 Recommended Clips for User 10130 using SVD
+### Top 10 Recommended Clips for ID 10130 using SVD
 | Rank |             Clip              | Predicted Rating |
 |------|-------------------------------|------------------|
 |  1   |    Come and See (1985) 15     |      0.8452      |
