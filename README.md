@@ -61,7 +61,19 @@ Collaborative filtering is a method used in recommendation systems where the pre
 | n_epochs  |  50   |
 |  lr_all   | 0.005 |
 |  reg_all  |  0.1  |
-| Best RMSE | 0.166 |
+| Best RMSE | 0.1662 |
+
+### SVD++ Optimal Parameters
+| Parameter | Value |
+|-----------|-------|
+| n_factors |   25  |
+| n_epochs  |  200  |
+|  lr_all   | 0.005 |
+|  reg_all  |  0.1  |
+|   lr_bi   | 0.001 |
+|   lr_pu   | 0.005 |
+|   lr_qi   | 0.005 |
+| Best RMSE | 0.1661|
 
 ### Cross-Validation
 Performed 5-fold cross-validation with optimal parameters.   
