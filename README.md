@@ -105,5 +105,3 @@ Performed 5-fold cross-validation with optimal parameters.
 |  9   |    Twin Peaks 2 (2017) 66     |      0.7570      |
 |  10  | Final Destination (2000) 125  |      0.7548      |
 
-
-This project is licensed under the MIT License. See the LICENSE file for details.
