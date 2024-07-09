@@ -20,7 +20,7 @@ Collaborative filtering is a method used in recommendation systems where the pre
 
 Singular Value Decomposition (SVD) is a matrix factorization technique used in collaborative filtering for recommendation systems. It decomposes the user-item interaction matrix into three matrices, capturing latent factors that explain user preferences and item characteristics.   
 
-### Algorithm steps:
+### Steps:
 1. Scale emotional ratings and reaction times.   
 2. Compute the composite rating/combined weights (rating 80% + inverse reaction time 20%).   
 3. Use the Surprise library to perform collaborative filtering with SVD.   
