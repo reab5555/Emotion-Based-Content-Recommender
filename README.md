@@ -42,7 +42,7 @@ Singular Value Decomposition (SVD) is a matrix factorization technique used in c
 
 ### Weighted Table (after scaling and RT inversion)
 
-|      Participant ID        |                Clip                      | Combined rating |
+|      Participant ID        |                Clip                      | Combined Rating |
 |----------------------------|------------------------------------------|-----------------|
 | ... and 1230 previous rows |                   ...                    |       ...       |
 |           25910            |            Titanic (1997) 114            |      0.663      |
